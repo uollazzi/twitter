@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.container {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.column {
+    flex: 1;
+
+}
+
+.column-center {
+    flex: 2;
+
+}
+
+mat-nav-list {}
